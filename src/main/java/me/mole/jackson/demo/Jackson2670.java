@@ -8,6 +8,7 @@ import java.io.IOException;
  * jackson官方修复编号：jackson-databind-2670,
  * 对应的CVE编号：CVE-2020-11113
  * 影响范围：jackson-databind < 2.9.10.4
+ * 条件：项目中依赖 openjpa-all 这个jar
  */
 public class Jackson2670 {
 
